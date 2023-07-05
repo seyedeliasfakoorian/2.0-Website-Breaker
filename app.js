@@ -1,62 +1,43 @@
-const express = require("express"),
-  alloy = require("alloyproxy"),
-  app = express(),
-  http = require("http"),
-  fs = require("fs"),
-  path = require("path")
+import express
+  
+import alloyproxy
 
-const config = JSON.parse(
-  fs.readFileSync("./config.json", {
-    encoding: "utf8"
-  })
-)
+import http
 
-const server = http.createServer(app)
+import fs
 
-const localprox = new alloy({
-  prefix: "/prefix/",
-  error: (proxy) => {
-    return proxy.res.send(
-      fs.readFileSync(path.join(__dirname, "public", "error.html"), "utf8")
-    )
-  },
-  request: [],
-  response: [],
-  injection: True
-})
+import path
+
+app = express()
+
+server = http.createServer(app)
+
+localprox = alloy(prefix="/prefix/", error=lambda proxy: proxy.res.send(fs.readFileSync(path.join(__dirname, "public", "error.html"), "utf8")), request=[], response=[], injection=True)
 
 app.use(localprox.app)
 
 localprox.ws(server)
 
-//Cloudflare Attack Mode Fix
+@app.post("/")
 
-app.post("/", async (req, res) => {
-  switch (req.url:
-    case "/":
-      return res.send(
-        fs.readFileSync(path.join(__dirname, "public", "index.html"), "utf8")
-      )
-  }
-})
+async def post_handler(req, res):
 
-//Querystring Navigation
-app.get("/", async (req, res) => {
-  switch (req.url:
-    case "/":
-      return res.send(
-        fs.readFileSync(path.join(__dirname, "public", "index.html"), "utf8")
-      )
-  }
+if req.url == "/":
 
-  switch (req.url:
-    case "/?a":
-      return res.send(
-        fs.readFileSync(path.join(__dirname, "public", "error.html"), "utf8")
-      )
-  }
-})
+return res.send(fs.readFileSync(path.join(__dirname, "public", "index.html"), "utf8"))
+
+@app.get("/")
+
+async def get_handler(req, res):
+
+if req.url == "/":
+
+return res.send(fs.readFileSync(path.join(__dirname, "public", "index.html"), "utf8"))
+
+elif req.url == "/?a":
+
+return res.send(fs.readFileSync(path.join(__dirname, "public", "error.html"), "utf8"))
 
 app.use(express.static(path.join(__dirname, "public")))
 
-server.listen(process.env.PORTor config.port);
+server.listen(process.env.PORT or config.port)
