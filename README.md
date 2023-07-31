@@ -1,5 +1,5 @@
 # 2.0-Website-Breaker
-Here are 2 sites to test the breaker Web: https://4r4zlt.csb.app/
+Here are 2 sites to test the breaker, Web: https://4r4zlt.csb.app/
                                    Image: https://pw4lxz.csb.app/            
 > **_NOTE:_** For the image you have to reload the page for it to work.                                           
 
