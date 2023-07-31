@@ -1,6 +1,7 @@
 # 2.0-Website-Breaker
-Here is a site to test the breaker from my demo codesandbox resposotory https://4r4zlt.csb.app/
-
+Here are 2 sites to test the breaker Web: https://4r4zlt.csb.app/
+                                   Image: https://pw4lxz.csb.app/            
+> **_NOTE:_** For the image you have to reload the page for it to work.                                             
 An example usage on breaking amazon's landing page
 ![An example usage on amazon's landing page](https://res.cloudinary.com/dkoatnxem/image/upload/v1652237491/website-breaker/website-breaker-preview-2_nx282w.png)
 Visit https://jenna-ortega.com/
