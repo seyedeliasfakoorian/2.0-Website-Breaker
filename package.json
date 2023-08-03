@@ -1,12 +1,9 @@
 {
-  "homepage": "http://seyedeliasfakoorian.github.io/2.0-Website-Breaker/",
   "name": "20-Website-Breaker",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "scripts": [],
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build" {
+  "scripts": {
   },
   "keywords": [],
   "author": "Titanium Network",
