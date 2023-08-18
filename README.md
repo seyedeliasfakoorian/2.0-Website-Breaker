@@ -14,5 +14,6 @@ Demo: https://pw4lxz.csb.app/
 
 The images may look diffrent from the preview
 # Credits
-Cat photo by Manja Vitolic on Unsplash
+Cat photo by [Manja Vitolic](https://unsplash.com/@madhatterzone?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
 Jenna Ortega photo from [Jenna Ortega's Site](https://jenna-ortega.com/photos/thumbnails.php?album=514)
