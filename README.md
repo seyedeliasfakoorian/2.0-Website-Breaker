@@ -2,14 +2,14 @@
 # Modes
 The website breaker's first mode is that it can break a website into 1000 peices:
 ![An example usage on amazon's landing page](https://res.cloudinary.com/dkoatnxem/image/upload/v1652237491/website-breaker/website-breaker-preview-2_nx282w.png)
-Demo: https://website-breaker-demo-2e92fbab7def.herokuapp.com/
+Demo: https://4r4zlt.csb.app/
 
 The website breakers seccond mode is that it will break an image into 20 pieces:
 ![Manja Vitolic Cat Image (splitted)](https://github.com/seyedeliasfakoorian/2.0-Website-Breaker/assets/98291494/2b4d0367-a3d8-4844-8236-8ad08b24d8d5)
 
 ![Jenna-Ortega-1677582680 (splitted)](https://github.com/seyedeliasfakoorian/2.0-Website-Breaker/assets/98291494/4af120ec-10ae-482d-b1d8-888f0b2388da)
 
-Demo: https://pw4lxz.csb.app/
+Demo: https://website-breaker-demo-2e92fbab7def.herokuapp.com/
 > **_NOTE:_** For this demo you have to reload the page for it to work.
 
 The images may look diffrent from the preview
