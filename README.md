@@ -13,6 +13,7 @@ Demo: https://website-breaker-demo-2e92fbab7def.herokuapp.com/
 > **_NOTE:_** For this demo you have to reload the page for it to work.
 
 The images may look diffrent from the preview
+The website breaker can also be used by the [extention](https://chrome.google.com/webstore/detail/website-breaker/kehlflmgfbkjncaoogcangeeejhbgfnm)
 # Credits
 Cat photo by [Manja Vitolic](https://unsplash.com/@madhatterzone?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
