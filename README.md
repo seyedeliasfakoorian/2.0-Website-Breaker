@@ -1,4 +1,5 @@
 # 2.0-Website-Breaker
+![Website breaker logo](https://res.cloudinary.com/dkoatnxem/image/upload/v1652274845/website-breaker/website-breaker_ohpshu.png)
 # Modes
 The website breaker's first mode is that it can break a website into 1000 peices:
 ![An example usage on amazon's landing page](https://res.cloudinary.com/dkoatnxem/image/upload/v1652237491/website-breaker/website-breaker-preview-2_nx282w.png)
