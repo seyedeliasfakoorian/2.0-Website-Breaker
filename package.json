@@ -2,7 +2,7 @@
   "name": "20-Website-Breaker",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "app.py",
   "scripts": {
   },
   "keywords": [],
