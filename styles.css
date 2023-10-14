@@ -4,6 +4,6 @@ body {
 }
 
 .hero {
-  background-image: url("2.0-Website-Breaker.png");
+  background-image: "2.0-Website-Breaker.png";
   background-size: cover;
 }
