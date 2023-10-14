@@ -3,7 +3,7 @@ body {
   text-align: center;
 }
 
-background-color {
+.hero {
   background-image: "2.0-Website-Breaker.png";
   background-size: cover;
 }
