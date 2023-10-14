@@ -1,5 +1,10 @@
 body {
   margin: 0;
-  background: 2.0-Website-Breaker.png;
   text-align: center;
+  font-family: system-ui;
+}
+
+.hero {
+  background-image: url("2.0-Website-Breaker.png")
+  background-size: cover;
 }
