@@ -17,13 +17,6 @@ Demo: https://website-breaker-demo-2e92fbab7def.herokuapp.com/
 
 The images may look diffrent from the preview
 
-Fun Fact! For the seccond demo, you can find the code files written by typing the file name:
-
-Example: https://website-breaker-demo-2e92fbab7def.herokuapp.com/app.py
-- app.py
-- package.json
-- jenna-ortega-1677582680.jpg
-
 The website breaker can also be used by the [extention](https://chrome.google.com/webstore/detail/website-breaker/kehlflmgfbkjncaoogcangeeejhbgfnm)
 # Credits
 Cat photo by [Manja Vitolic](https://unsplash.com/@madhatterzone?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
