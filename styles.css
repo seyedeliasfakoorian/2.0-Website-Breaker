@@ -6,4 +6,5 @@ body {
 .hero {
   background-image: url("https://res.cloudinary.com/dkoatnxem/image/upload/v1652274845/website-breaker/website-breaker_ohpshu.png");
   background-size: cover;
+  background-size: no-repeat;
 }
