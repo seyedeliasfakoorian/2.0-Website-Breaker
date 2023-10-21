@@ -12,7 +12,9 @@ The website breakers seccond mode is that it will break an image into 20 pieces:
 
 ![Jenna-Ortega-1677582680 (splitted)](https://github.com/seyedeliasfakoorian/2.0-Website-Breaker/assets/98291494/4af120ec-10ae-482d-b1d8-888f0b2388da)
 
-Demo: https://website-breaker-demo-2e92fbab7def.herokuapp.com/
+Demo:
+
+<a href="https://website-breaker-demo-2e92fbab7def.herokuapp.com/"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/heroku2.svg"><img>
 > **_NOTE:_** For this demo you have to reload the page for it to work.
 
 The images may look diffrent from the preview
