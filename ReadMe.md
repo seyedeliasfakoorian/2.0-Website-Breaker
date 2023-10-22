@@ -10,8 +10,6 @@ Demo: https://4r4zlt.csb.app/
 The website breakers seccond mode is that it will break an image into 20 pieces:
 ![Manja Vitolic Cat Image (splitted)](https://github.com/seyedeliasfakoorian/2.0-Website-Breaker/assets/98291494/2b4d0367-a3d8-4844-8236-8ad08b24d8d5)
 
-![Jenna-Ortega-1677582680 (splitted)](https://github.com/seyedeliasfakoorian/2.0-Website-Breaker/assets/98291494/4af120ec-10ae-482d-b1d8-888f0b2388da)
-
 Demo:
 
 <a href="https://website-breaker-demo-2e92fbab7def.herokuapp.com/"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/heroku2.svg"><img>
@@ -20,7 +18,3 @@ Demo:
 The images may look diffrent from the preview
 
 The website breaker can also be used by the [extention](https://chrome.google.com/webstore/detail/website-breaker/kehlflmgfbkjncaoogcangeeejhbgfnm)
-# Credits
-Cat photo by [Manja Vitolic](https://unsplash.com/@madhatterzone?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-
-Jenna Ortega photo from [Jenna Ortega's Site](https://jenna-ortega.com/photos/thumbnails.php?album=514)
