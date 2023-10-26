@@ -7,7 +7,7 @@ The website breaker's first mode is that it can break a website into 1000 peices
 ![An example usage on amazon's landing page](https://res.cloudinary.com/dkoatnxem/image/upload/v1652237491/website-breaker/website-breaker-preview-2_nx282w.png)
 Demo:
 
-<a href="website-breaker-demo.vercel.app"><img height="30px" src="https://github.com/seyedeliasfakoorian/2.0-Website-Breaker/blob/main/Vercel.png"><img>
+<a href="website-breaker-demo.vercel.app"><img height="30px" src="https://raw.githubusercontent/seyedeliasfakoorian/2.0-Website-Breaker/blob/main/Vercel.png"><img>
 
 The website breakers seccond mode is that it will break an image into 20 pieces:
 ![Manja Vitolic Cat Image (splitted)](https://github.com/seyedeliasfakoorian/2.0-Website-Breaker/assets/98291494/2b4d0367-a3d8-4844-8236-8ad08b24d8d5)
