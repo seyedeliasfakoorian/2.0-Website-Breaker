@@ -1,7 +1,7 @@
 # 2.0-Website-Breaker
 This ultimate site breaker can break sites into 2 different ways.
 
-<a href="https://res.cloudinary.com/dkoatnxem/image/upload/v1652274845/website-breaker/website-breaker_ohpshu.png"><img height="30px" src="https://res.cloudinary.com/dkoatnxem/image/upload/v1652274845/website-breaker/website-breaker_ohpshu.png"><img>
+<a href="https://res.cloudinary.com/dkoatnxem/image/upload/v1652274845/website-breaker/website-breaker_ohpshu.png"><img height="192px" src="https://res.cloudinary.com/dkoatnxem/image/upload/v1652274845/website-breaker/website-breaker_ohpshu.png"><img>
 # Modes
 The website breaker's first mode is that it can break a website into 1000 peices:
 ![An example usage on amazon's landing page](https://res.cloudinary.com/dkoatnxem/image/upload/v1652237491/website-breaker/website-breaker-preview-2_nx282w.png)
