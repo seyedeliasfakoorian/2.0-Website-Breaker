@@ -17,4 +17,5 @@
     "express-session": "^1.17.1",
     "mime-types": "^2.1.27",
     "xss": "^1.0.8"
-  }
+   }
+ }
