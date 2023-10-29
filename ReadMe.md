@@ -15,8 +15,12 @@ The website breakers seccond mode is that it will automatically break an image i
 Demo:
 
 <a href="https://website-breaker-demo-2e92fbab7def.herokuapp.com/"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/heroku2.svg"><img>
-> **_NOTE:_** For this demo you have to reload the page for it to work.
-
-The images may look diffrent from the preview
+> **_NOTE:_** For this demo you have to reload the page for it to work and, the images may look diffrent from the preview.
 
 The website breaker can also be used by the [extention](https://chrome.google.com/webstore/detail/website-breaker/kehlflmgfbkjncaoogcangeeejhbgfnm)
+
+You can also install the website breaker on your computer.
+```bash
+npm i website-breaker
+```
+> **_NOTE:_** We assume you have Node and Npm installed.
