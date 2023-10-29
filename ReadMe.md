@@ -20,7 +20,4 @@ Demo:
 The website breaker can also be used by the [extention](https://chrome.google.com/webstore/detail/website-breaker/kehlflmgfbkjncaoogcangeeejhbgfnm)
 
 You can also install the website breaker on your computer.
-```bash
-npm i website-breaker
-```
-> **_NOTE:_** We assume you have Node and Npm installed.
+Link: https://npm.runkit.com/website-breaker
