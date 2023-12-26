@@ -10,9 +10,9 @@ Demo:
 <a href="https://website-breaker-demo.vercel.app"><img height="43px" src="https://raw.githubusercontent.com/anuraghazra/github-readme-stats/0691084c396d5e2bb85a0d299e272e67cf1bee07/powered-by-vercel.svg"><img>
 
 The website breakers seccond mode is that it will automatically break an image into 20 pieces:
-![Manja Vitolic Cat Image (splitted)](https://github.com/seyedeliasfakoorian/2.0-Website-Breaker/assets/98291494/2b4d0367-a3d8-4844-8236-8ad08b24d8d5)
 
-Link: https://github.com/seyedeliasfakoorian/Org2
+
+<a href="https://github.com/seyedeliasfakoorian/Org2.git"><img height="502px" src="https://github.com/seyedeliasfakoorian/2.0-Website-Breaker/assets/98291494/0ffade78-c499-49ca-b761-23f4229ac3ad"><img>
 
 The website breaker can also be used by the [extention](https://chrome.google.com/webstore/detail/website-breaker/kehlflmgfbkjncaoogcangeeejhbgfnm)
 
