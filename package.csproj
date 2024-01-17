@@ -6,7 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- RabbitMQ NuGet Package Reference -->
     <PackageReference Include="react.js" Version="0.8.0" />
     <PackageReference Include="Retyped.react-dom" Version="15.5.6440" />
     <PackageReference Include="lodash" Version="1.0.0" />
