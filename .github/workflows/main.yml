@@ -1,0 +1,29 @@
+name: Push to CodeSandbox
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Install Dependencies
+      run: yarn install
+
+    - name: Push to CodeSandbox
+      run: |
+        SANDBOX_ID="8mdktw"
+
+        CODESANDBOX_TOKEN="${{ secrets.CODESANDBOX_TOKEN }}"
+
+        # Upload the code to CodeSandbox
+        curl -H "Authorization: Bearer $CODESANDBOX_TOKEN" \
+             -X POST \
+             -F "sandbox_id=$SANDBOX_ID" \
+             "https://codesandbox.io/api/v1/sandboxes/$SANDBOX_ID/files"

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- RabbitMQ NuGet Package Reference -->
+    <PackageReference Include="react.js" Version="0.8.0" />
+    <PackageReference Include="Retyped.react-dom" Version="15.5.6440" />
+    <PackageReference Include="lodash" Version="1.0.0" />
+    <PackageReference Include="jQuery.SmoothScroll" Version="1.0.0" />
+    <PackageReference Include="Retyped.cheerio" Version="0.22.6440" />
+    <PackageReference Include="enzyme.TypeScript.DefinitelyTyped" Version="0.0.1" />
+    <PackageReference Include="Fable.Builders.ReactRouterDom" Version="1.1.0" />
+    <PackageReference Include="RabbitMQ.Client" Version="6.2.1" />
+
+  </ItemGroup>
+
+</Project>
