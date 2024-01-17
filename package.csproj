@@ -13,7 +13,7 @@
     <PackageReference Include="Retyped.cheerio" Version="0.22.6440" />
     <PackageReference Include="enzyme.TypeScript.DefinitelyTyped" Version="0.0.1" />
     <PackageReference Include="Fable.Builders.ReactRouterDom" Version="1.1.0" />
-    <PackageReference Include="RabbitMQ.Client" Version="6.2.1" />
+    <PackageReference Include="RabbitMQ.Client" Version="3.6.9" />
 
   </ItemGroup>
 
