@@ -12,7 +12,7 @@ Demo:
 The website breakers seccond mode is that it will automatically break an image into 20 pieces:
 
 
-<a href="https://github.com/seyedeliasfakoorian/Org2.git"><img height="502px" width="1001px" src="https://github.com/seyedeliasfakoorian/2.0-Website-Breaker/assets/98291494/0ffade78-c499-49ca-b761-23f4229ac3ad"><img>
+<a href="https://github.com/seyedeliasfakoorian/Org2.git"><img height="502px" width="1001px" src="https://github.com/seyedeliasfakoorian/2.0-Website-Breaker/assets/98291494/dd81b4cf-f1f2-495c-a711-3da1ed62a776"><img>
 
 The website breaker can also be used by the [extention](https://chrome.google.com/webstore/detail/website-breaker/kehlflmgfbkjncaoogcangeeejhbgfnm)
 
