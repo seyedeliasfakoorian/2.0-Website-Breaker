@@ -1,0 +1,19 @@
+.header {
+  @apply relative h-screen overflow-hidden;
+}
+
+.back-video {
+  @apply absolute top-0 left-0 w-full h-full object-cover;
+}
+
+nav {
+  @apply relative z-10;
+}
+
+.nav-links {
+  @apply flex items-center list-none m-0 p-0;
+}
+
+.nav-links li {
+  @apply mr-4;
+}
