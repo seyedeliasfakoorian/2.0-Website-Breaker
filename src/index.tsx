@@ -16,8 +16,8 @@ const App = () => {
           2.0-Website-Breaker | This ultimate site breaker that can break sites
           in 2 different ways
         </title>
-        <link rel="stylesheet" href="%PUBLIC_URL%/styles.css" />
-        <link rel="stylesheet" href="%PUBLIC_URL%/video.css" />
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="video.css" />
       </head>
       <body>
         <div class="header">
@@ -38,7 +38,7 @@ const App = () => {
                 <a href="#">Home</a>
               </li>
               <li>
-                <a href="%PUBLIC_URL%/docs.tsx">Docs</a>
+                <a href="docs.tsx">Docs</a>
               </li>
             </ul>
           </nav>
