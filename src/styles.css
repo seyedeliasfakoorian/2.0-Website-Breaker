@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-900;
+}
+
+p {
+  @apply text-white;
+}
+
+.header {
+  @apply bg-gray-900 h-screen flex items-center justify-between px-8 relative;
+}
+
+nav {
+  @apply flex items-center;
+}
+
+.logo {
+  @apply w-32;
+}
+
+.nav-links {
+  @apply flex ml-8;
+}
+
+.nav-links li {
+  @apply mr-6;
+}
+
+.nav-links li a {
+  @apply text-white;
+}
+
+.nav-links li a::after {
+  @apply content-[''] bg-red-500 w-0 h-2 absolute bottom-0 left-0 transition-width duration-500;
+}
+
+.nav-links li a:hover::after {
+  @apply w-full;
+}
