@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "commit": "npm i -g gitmoji-cli"
   },
   "dependencies": {
     "solid-js": "^1.8.0",
