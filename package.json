@@ -9,7 +9,7 @@
   "dependencies": {
     "solid-js": "^1.8.0",
     "@types/request": "^0.0.27",
-    "axios": "^0.24.0",
+    "axios": "^1.6.4",
     "express": "^4.17.2"
   },
   "devDependencies": {
