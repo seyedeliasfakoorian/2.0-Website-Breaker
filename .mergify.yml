@@ -6,9 +6,9 @@ pull_request_rules:
             - files=package-lock.json
       actions:
          merge:
-           method: merge
+           method: squash
     - name: Delete Branch After Merge
       conditions:
-        - merged
+        - squashed
       actions:
          delete_head_branch: {}
