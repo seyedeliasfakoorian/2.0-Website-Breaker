@@ -10,11 +10,11 @@
     "solid-js": "^1.8.0",
     "@types/request": "^0.0.27",
     "axios": "^1.6.4",
-    "express": "^4.17.2",
-    "fs": "^0.0.1-security",
-    "path": "^0.4.9"
+    "express": "^4.17.2"
   },
   "devDependencies": {
+    "lint-staged": "^0.1.0",
+    "husky": "^9.0.1",
     "autoprefixer": "^10.4.17",
     "postcss": "^8.4.29",
     "nodemon": "^2.0.14",
@@ -22,5 +22,15 @@
     "typescript": "^5.0.2",
     "vite": "^0.1.0",
     "vite-plugin-solid": "^0.5.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.js": [
+      "node add_emojis.js"
+    ]
   }
 }
