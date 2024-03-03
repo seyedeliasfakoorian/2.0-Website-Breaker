@@ -1,4 +1,3 @@
-// Docs.tsx
 import { createSignal } from "solid-js";
 
 const Docs = () => {

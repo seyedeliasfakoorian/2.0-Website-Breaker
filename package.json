@@ -4,24 +4,25 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "start": "vite preview"
   },
   "dependencies": {
-    "solid-js": "^1.8.0",
     "@types/request": "^0.0.27",
     "axios": "^1.6.4",
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "solid-js": "^1.8.0",
+    "website-breaker": "^1.0.3"
   },
   "devDependencies": {
-    "lint-staged": "^0.1.0",
-    "husky": "^9.0.1",
     "autoprefixer": "^10.4.17",
-    "postcss": "^8.4.29",
+    "husky": "^9.0.1",
+    "lint-staged": "^0.1.0",
     "nodemon": "^2.0.14",
+    "postcss": "^8.4.29",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5.0.2",
-    "vite": "^0.1.0",
-    "vite-plugin-solid": "^0.5.0"
+    "typescript": "^5.3.3",
+    "vite": "^5.1.4",
+    "vite-plugin-solid": "^2.10.1"
   },
   "husky": {
     "hooks": {

@@ -1,11 +1,20 @@
-// App.tsx
 import { createSignal } from "solid-js";
+import breakWebPage from "website-breaker";
 
-const App = () => {
-  const [count, setCount] = createSignal(0);
+export const WebsiteBreaker = () => {
+  const [websiteUrl, setWebsiteUrl] = createSignal("");
+  const [loadedWebsite, setLoadedWebsite] = createSignal(null);
 
-  const increment = () => setCount(count() + 1);
-  const decrement = () => setCount(count() - 1);
+  const handleGoButtonClick = () => {
+    // Load the website with the provided URL (you may need to implement this part)
+    // For simplicity, I'm just setting the loaded website in state
+    setLoadedWebsite(websiteUrl());
+  };
+
+  const handleBreakButtonClick = () => {
+    // Break the loaded website
+    breakWebPage();
+  };
 
   return (
     <html lang="en">
@@ -27,7 +36,6 @@ const App = () => {
               type="video/mp4"
             />
           </video>
-
           <nav>
             <img
               src="https://res.cloudinary.com/seyedeliasfakoorian/image/upload/v1698639510/website-breaker.png"
@@ -43,21 +51,39 @@ const App = () => {
             </ul>
           </nav>
         </div>
-        <h1>{count()}</h1>
-        <p>Sorry, the prompt cannot open at this time.</p>
-        <p>You can use the 2.0-Website-Breaker from the extension.</p>
-        <p>
-          <u>
-            https://chrome.google.com/webstore/detail/website-breaker/kehlflmgfbkjncaoogcangeeejhbgfnm
-          </u>
-        </p>
-        <p>
-          If you want to install the website-breaker on your computer, read the
-          docs
-        </p>
+
+        <div style={{ display: "flex", marginBottom: "10px" }}>
+          <input
+            type="text"
+            placeholder="Enter website URL"
+            value={websiteUrl()}
+            onInput={(e) => setWebsiteUrl(e.target.value)}
+            style={{ flex: 1, marginRight: "10px", padding: "5px" }}
+          />
+          <button
+            onClick={handleGoButtonClick}
+            style={{ backgroundColor: "red", color: "white", padding: "5px" }}
+          >
+            GO
+          </button>
+        </div>
+        {loadedWebsite() && (
+          <div>
+            {/* Display the loaded website (you may replace this with your implementation) */}
+            <iframe
+              src={loadedWebsite()}
+              style={{ width: "100%", height: "400px" }}
+            />
+            <button
+              id="break-website-button"
+              className="btn"
+              onClick={handleBreakButtonClick}
+            >
+              Break Me
+            </button>
+          </div>
+        )}
       </body>
     </html>
   );
 };
-
-export default App;
