@@ -46,7 +46,7 @@ export const WebsiteBreaker = () => {
                 <a href="#">Home</a>
               </li>
               <li>
-                <a href="docs.tsx">Docs</a>
+                <a href="docs.d.tsx">Docs</a>
               </li>
             </ul>
           </nav>
