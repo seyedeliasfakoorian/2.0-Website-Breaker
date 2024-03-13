@@ -1,6 +1,6 @@
 // add_emojis.js
 
-const execSync = require("child_process").execSync;
+const path = require("path");
 
 const emojis = [
   "⚡️",
@@ -34,7 +34,6 @@ const emojis = [
   "🗑️",
   "🩹",
   "🧐",
-  "⚰️",
   "🧪",
   "🩺",
 ];
@@ -44,8 +43,15 @@ function getRandomEmoji() {
   return emojis[randomIndex];
 }
 
+// Set the path to git executable if needed
+const gitPath = process.env.PATH_TO_GIT || "git";
+process.env.GIT_EXEC_PATH = path.resolve(gitPath);
+
 // Get all commit messages
-const commitMessages = execSync("git log --pretty=%B").toString().split("\n\n");
+const commitMessages = require("child_process")
+  .execSync("git log --pretty=%B")
+  .toString()
+  .split("\n\n");
 
 // Add a random emoji to each commit message
 const newCommitMessages = commitMessages.map(
@@ -53,6 +59,6 @@ const newCommitMessages = commitMessages.map(
 );
 
 // Replace the existing commit messages with the new ones
-execSync(
+require("child_process").execSync(
   `git filter-repo --message-callback 'return """${newCommitMessages.join("\n\n")}""'`,
 );

@@ -1,19 +1,31 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 .header {
   @apply relative h-screen overflow-hidden;
 }
 
-.back-video {
-  @apply absolute top-0 left-0 w-full h-full object-cover;
-}
-
 nav {
-  @apply relative z-10;
+  @apply relative z-1;
 }
 
 .nav-links {
-  @apply flex items-center list-none m-0 p-0;
+  @apply list-none m-0 p-0 flex items-center;
 }
 
 .nav-links li {
-  @apply mr-4;
+  @apply mr-20;
+}
+
+.back-video {
+  @apply absolute top-0 left-0 w-full h-full object-cover;
+
+  @media (min-aspect-ratio: 16/9) {
+    @apply h-auto w-full;
+  }
+
+  @media (max-aspect-ratio: 16/9) {
+    @apply h-full w-auto;
+  }
 }

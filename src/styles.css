@@ -1,39 +1,75 @@
-body {
-  @apply bg-gray-900;
-}
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
-p {
-  @apply text-white;
+body {
+  @apply m-0 overflow-hidden;
 }
 
 .header {
-  @apply bg-gray-900 h-screen flex items-center justify-between px-8 relative;
+  @apply h-screen px-8 relative;
+}
+
+#loadedWebsiteIframe {
+  @apply flex w-full h-full border-none;
 }
 
 nav {
-  @apply flex items-center;
+  @apply flex items-center justify-between py-28;
 }
 
 .logo {
-  @apply w-32;
-}
-
-.nav-links {
-  @apply flex ml-8;
+  @apply w-140;
 }
 
 .nav-links li {
-  @apply mr-6;
+  @apply inline-block mx-15;
 }
 
 .nav-links li a {
-  @apply text-white;
+  @apply no-underline text-white relative py-5 px-0;
 }
 
 .nav-links li a::after {
-  @apply content-[''] bg-red-500 w-0 h-2 absolute bottom-0 left-0 transition-width duration-500;
+  @apply content-"" bg-red-500 w-0 h-2 absolute bottom-0 left-0 transition-width duration-500;
 }
 
 .nav-links li a:hover::after {
   @apply w-full;
+}
+
+.content {
+  @apply absolute left-1/2 top-1/2 w-90vw max-w-900 transform-translate-x-(-50)-translate-y-(-50) text-center text-white pt-50;
+}
+
+.content form {
+  @apply bg-white p-10 rounded-8 flex;
+}
+
+.content form input {
+  @apply flex-1 border-none outline-none px-20 text-18;
+}
+
+.content form button {
+  @apply bg-red-500 text-white px-40 py-15 border-none rounded-6 cursor-pointer;
+}
+
+.full-screen {
+  @apply flex flex-col h-screen;
+}
+
+#loadedWebsiteIframe {
+  @apply flex-1;
+}
+
+#break-website-button {
+  @apply h-30 w-30 outline-none m-10 border-none rounded-2;
+}
+
+#break-website-button:active {
+  @apply bg-blueviolet;
+}
+
+#break-website-button.current {
+  @apply box-shadow-2-white-4-black;
 }
