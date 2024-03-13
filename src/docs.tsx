@@ -1,5 +1,5 @@
 // docs.tsx
-import { createSignal } from "solid-js";
+import createSignal from 'solid-js'
 
 const Docs = () => {
   const [menuVisible, setMenuVisible] = createSignal(false);
