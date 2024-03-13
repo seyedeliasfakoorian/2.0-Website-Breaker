@@ -1,4 +1,4 @@
-import { createSignal, onCleanup, onCleanupEffect } from "solid-js";
+import { createSignal, onCleanup, onCleanupEffect } from "solid-js"
 
 const App = () => {
   const websiteUrl = createSignal("");
