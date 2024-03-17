@@ -1,4 +1,4 @@
-import createSignal, onCleanup, onCleanupEffect from 'solid-js'
+import { JSX } from 'solid-js';
 
 const App = () => {
   const websiteUrl = createSignal("");
@@ -123,7 +123,7 @@ const App = () => {
               <a href="#">Home</a>
             </li>
             <li>
-              <Link href="docs.tsx">Docs</Link>
+              <Link href="stories/docs.tsx">Docs</Link>
             </li>
           </ul>
         </nav>
@@ -150,5 +150,3 @@ const App = () => {
     </>
   );
 };
-
-export default App;

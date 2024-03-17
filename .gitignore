@@ -1,0 +1,6 @@
+*.log
+.DS_Store
+node_modules
+.cache
+dist
+/add_emojis.js
