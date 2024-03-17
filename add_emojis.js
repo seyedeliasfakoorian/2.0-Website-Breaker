@@ -1,41 +1,41 @@
 // add_emojis.js
 
-const path = require("path");
+const path = require('path');
 
 const emojis = [
-  "⚡️",
-  "🔥",
-  "🐛",
-  "✨",
-  "🚀",
-  "💄",
-  "🎉",
-  "🔖",
-  "🚨",
-  "🚧",
-  "📌",
-  "👷",
-  "📈",
-  "♻️",
-  "🔧",
-  "🔨",
-  "✏️",
-  "📦️",
-  "💥",
-  "💡",
-  "🏗️",
-  "📱",
-  "📸",
-  "🔍️",
-  "🌱",
-  "🚩",
-  "🥅",
-  "💫",
-  "🗑️",
-  "🩹",
-  "🧐",
-  "🧪",
-  "🩺",
+  '⚡️',
+  '🔥',
+  '🐛',
+  '✨',
+  '🚀',
+  '💄',
+  '🎉',
+  '🔖',
+  '🚨',
+  '🚧',
+  '📌',
+  '👷',
+  '📈',
+  '♻️',
+  '🔧',
+  '🔨',
+  '✏️',
+  '📦️',
+  '💥',
+  '💡',
+  '🏗️',
+  '📱',
+  '📸',
+  '🔍️',
+  '🌱',
+  '🚩',
+  '🥅',
+  '💫',
+  '🗑️',
+  '🩹',
+  '🧐',
+  '🧪',
+  '🩺',
 ];
 
 function getRandomEmoji() {
@@ -44,21 +44,21 @@ function getRandomEmoji() {
 }
 
 // Set the path to git executable if needed
-const gitPath = process.env.PATH_TO_GIT || "git";
+const gitPath = process.env.PATH_TO_GIT || 'git';
 process.env.GIT_EXEC_PATH = path.resolve(gitPath);
 
 // Get all commit messages
-const commitMessages = require("child_process")
-  .execSync("git log --pretty=%B")
+const commitMessages = require('child_process')
+  .execSync('git log --pretty=%B')
   .toString()
-  .split("\n\n");
+  .split('\n\n');
 
 // Add a random emoji to each commit message
 const newCommitMessages = commitMessages.map(
-  (message) => `${getRandomEmoji()} ${message.trim()}`,
+  (message) => `${getRandomEmoji()} ${message.trim()}`
 );
 
 // Replace the existing commit messages with the new ones
-require("child_process").execSync(
-  `git filter-repo --message-callback 'return """${newCommitMessages.join("\n\n")}""'`,
+require('child_process').execSync(
+  `git filter-repo --message-callback 'return """${newCommitMessages.join('\n\n')}""'`
 );
